@@ -11,15 +11,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <style>
-    h1 {
+
+h1 {
   text-align: center;
 }
+
+.box {
+            width: 666px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+
 </style>
 <body>
 <h1>Písemka</h1>
 <br>
+
 <div class="container-md">
     <h2>Boxy</h2>
+    <div class="row justify-content-center m-4" id="boxy">
+        <div class="col-md-4 d-flex order-md-first justify-content-center">
+            <div class="box" style="background: rgb(229, 255, 0)">
+                Žlutá
+            </div>
+        </div>
+        <div class="col-md-4 d-flex order-sm-first justify-content-center">
+            <div class="box" style="background: rgb(17, 0, 255);">
+                Modrá
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="container-md">
